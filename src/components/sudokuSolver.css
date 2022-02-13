@@ -38,3 +38,10 @@
     background-color: #D4F1F4;
     color: #189AB4;
 }
+
+@media (max-width: 400px) {
+    .matrix-output-box {
+        display: flex;
+        flex-direction: column
+    }
+}

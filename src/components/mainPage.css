@@ -1,4 +1,7 @@
-.main-page-container {}
+.main-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .sudoku-container {
     max-width: 1200px;
@@ -7,8 +10,23 @@
     flex-wrap: wrap;
     row-gap: 20px;
     column-gap: 10vw;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 h1, h2, h3 {
     color: #D4F1F4;
 }
+
+@media (max-width: 1050px) {
+    .sudoku-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+/* @media (max-width: 400px) {
+    .sudoku-container {
+        max-width: 400px;
+    }
+} */

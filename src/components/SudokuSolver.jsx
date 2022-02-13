@@ -17,6 +17,7 @@ export const SudokuSolver = () => {
         matrix.forEach(row => tempMat.push([...row]));
 
         if (solveSudoku(tempMat, 0, 0)) {
+            setSolvedMat(tempMat);
             setHeading('Solved Sudoku');
             setHeadingColor('#6DE1A7');
         } else {
@@ -28,8 +29,6 @@ export const SudokuSolver = () => {
     let done = false;
 
     function solveSudoku(mat, i, j) {
-        setSolvedMat(mat);
-
         if (done) {
             return;
         }
