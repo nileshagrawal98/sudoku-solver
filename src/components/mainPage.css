@@ -1,0 +1,14 @@
+.main-page-container {}
+
+.sudoku-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10vw;
+}
+
+h1, h2, h3 {
+    color: #D4F1F4;
+}

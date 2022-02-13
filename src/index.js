@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { MatrixContextProvider } from './context/MatrixContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MatrixContextProvider>
+      <App />
+    </MatrixContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,9 @@
+.matrix-input-box input {
+    width: 45px;
+    height: 42px;
+    text-align: center;
+    font-size: 20px;
+    color: #05445E;
+    background-color: #D4F1F4;
+    border: 1px solid #05445E;
+}

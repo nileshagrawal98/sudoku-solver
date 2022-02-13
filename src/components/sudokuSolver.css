@@ -1,0 +1,40 @@
+.matrix-output-box>div {
+    width: 450px;
+    height: 46px;
+    display: flex;
+}
+
+.matrix-output-box>div>span {
+    border: 1px solid #05445E;
+    flex-grow: 1;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #05445E;
+    background-color: #D4F1F4;
+}
+
+.solve-btn {
+    border: none;
+    margin: 20px auto;
+    width: 150px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #189AB4;
+    border-radius: 10px;
+    color: #05445E;
+    transition: all 0.7s ease;
+}
+
+.solve-btn:hover {
+    box-shadow: 0 0 10px #189AB4;
+    background-color: #D4F1F4;
+    color: #189AB4;
+}
